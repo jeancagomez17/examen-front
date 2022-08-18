@@ -1,0 +1,93 @@
+.container2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /* height: 100vh; */
+    padding:10px 20px;
+}
+
+.card-container{
+    display:flex;
+    width: 700px;
+    height: auto;
+    background-color: white;
+    border-radius:3px ;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0, .2) ;
+}
+.header{
+    border-right: 1px solid #ddd;
+
+}
+.desc{
+    background-color:#fbfbfb ;
+    padding: 20px;
+
+}
+.header .desc{
+    padding: 20px;
+    text-align:center;
+
+}
+
+.header a{
+    position: relative;
+    display:block;
+}
+.header img{
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin:20px 30px;
+    transition: .2s;
+}
+
+.header a:hover img{
+    box-shadow: 0 0 0 12px rgba(0, 0,  0, .1);
+
+}
+
+.desc h2 {
+    color:black;
+}
+.desc h4{
+    margin-bottom:20px;
+}
+
+.desc{
+    position:relative;
+}
+
+.desc p{
+    margin: 20px 30px;
+}
+
+.desc .social{
+    margin-top:25px;
+    
+
+}
+.desc .social a {
+    display:inline-block;
+    padding:0 15px;
+    color:red;
+    
+}
+
+.desc button{
+    border-radius: 50%;
+    width: 25px;
+    border:2px solid green;
+    font-size: 16px;
+    font-weight: bold;
+    float:left;
+}
+.desc button:hover{
+    border:2px solid black;
+    transition: ease-in .4s;
+}
+.desc .btn-carrito{
+    display:flex;
+    padding-left:10px;
+}
+.desc .carr {
+    width: 100px;
+    border-radius: 10px;
+}
